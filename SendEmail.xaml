@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SendEmail" this:SendEmail.FilePath="[Environment.CurrentDirectory+&quot;\Output\August.pdf&quot;]" this:SendEmail.ManualERFilePath="C:\Users\zhixchew\OneDrive - Advanced Micro Devices Inc\Desktop\Reinbursement\Manual ER - MYR (August Parking).xlsx" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:e="clr-namespace:Emails_Office365_Library_Windows_Version;assembly=Emails_Office365_Library_Windows_Version" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SendEmail" this:SendEmail.FilePath="[Environment.CurrentDirectory+&quot;\Output\August.pdf&quot;]" this:SendEmail.ManualERFilePath="C:\Users\zhixchew\OneDrive - Advanced Micro Devices Inc\Desktop\Reinbursement\Manual ER - MYR (August Parking).xlsx" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="FilePath" Type="InArgument(x:String)" />
     <x:Property Name="ManualERFilePath" Type="InArgument(x:String)" />
@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>648,2068</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>648,515.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SendEmail_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -116,65 +116,20 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="593.6,2003.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This workflow send the email with attachments.&#xD;&#xA;" DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="400,450.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="Hi,&#xD;&#xA;&#xD;&#xA;Please find the attached TouchNGo statement and Expense Report for the August Parking Claim. &#xD;&#xA;&#xD;&#xA;Thank you.&#xD;&#xA;&#xD;&#xA;Regards,&#xD;&#xA;EVERLYN CHEW&#xD;&#xA;Co-Op/ Intern  |  AMD&#xD;&#xA;IT-Finance Malay 2&#xD;&#xA;" Cc="aisyahmaryam.bintimohamedhassan@amd.com" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="531.2,294.4" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="Office August Parking Fees" To="chewzx-wm22@student.tarc.edu.my">
+    <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="Hi,&#xA;&#xA;Please find the attached TouchNGo statement and Expense Report for the August Parking Claim. &#xA;&#xA;Thank you.&#xA;&#xA;Regards,&#xA;EVERLYN CHEW&#xA;Co-Op/ Intern  |  AMD&#xA;IT-Finance Malay 2&#xA;" Cc="aisyahmaryam.bintimohamedhassan@amd.com" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="337.6,294.4" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="Office August Parking Fees" To="chewzx-wm22@student.tarc.edu.my">
       <ui:SendOutlookMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">
-            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="FilePath" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String">
-            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="ManualERFilePath" />
-          </InArgument>
+          <InArgument x:TypeArguments="x:String">[FilePath]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ManualERFilePath]</InArgument>
         </scg:List>
       </ui:SendOutlookMail.Files>
     </ui:SendOutlookMail>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="531.2,560" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,481.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Outlook]" Body="IDK" BodyType="Text" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="433.6,369.6" sap2010:WorkflowViewState.IdRef="SendMailX_2" Importance="Normal" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Bannan" To="chewzx-wm22@student.tarc.edu.my" UseDocumentAsBody="False">
-            <umab:SendMailX.Files>
-              <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
-            </umab:SendMailX.Files>
-            <umab:SendMailX.HtmlBodyFromFile>
-              <umabh:HtmlContentArgument FilePath="{x:Null}" HtmlBody="{x:Null}">
-                <umabh:HtmlContentArgument.RuntimeImages>
-                  <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-                </umabh:HtmlContentArgument.RuntimeImages>
-                <umabh:HtmlContentArgument.ValueMappings>
-                  <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="0" />
-                </umabh:HtmlContentArgument.ValueMappings>
-              </umabh:HtmlContentArgument>
-            </umab:SendMailX.HtmlBodyFromFile>
-          </umab:SendMailX>
-        </Sequence>
-      </ui:CommentOut.Body>
-    </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="531.2,956.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,878.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <e:SendEmail AttachmentFilePath="NA" AttachmentFolder="NA" BCCIds=";" CCIds=";" EmailBody="[string.Format(&quot;{0}{1}Please find the attached TouchNGo statement and Expense Report for the August Parking Claim.{2}{3}Thank you.{4}{5}Regards,{6}EVERLYN CHEW{7}Co-Op/ Intern  |  AMD{8}IT-Finance Malay 2{9}&quot;, &quot;Hi,&quot;, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine, Environment.NewLine)]" ExceptionMessage="{x:Null}" sap:VirtualizedContainerService.HintSize="337.6,766.4" sap2010:WorkflowViewState.IdRef="SendEmail_2" MailSent="{x:Null}" Office_Timeout="30000" OrchAssetAppId="Office365.RPAApp.ApplicationID" OrchAssetEmailAccount="c_Fin_email_Account" OrchAssetTenantId="Office365.RPAApp.TenantID" Subject="Office August Parking Fees" ToIds="[&quot;chewzx-wm22@student.tarc.edu.my&quot;]">
-            <e:SendEmail.OrchestratorFolder>
-              <InArgument x:TypeArguments="x:String" />
-            </e:SendEmail.OrchestratorFolder>
-          </e:SendEmail>
-        </Sequence>
-      </ui:CommentOut.Body>
-    </ui:CommentOut>
   </Sequence>
 </Activity>
