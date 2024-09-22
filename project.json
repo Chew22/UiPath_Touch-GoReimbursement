@@ -1,0 +1,70 @@
+{
+  "name": "TouchNGo PDF Reinbursement",
+  "description": "Read from PDF using CV features and Highlight Hotel EQ rows.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.Excel.Activities": "[2021.1.0]",
+    "Emails_Office365_Library_Windows_Version": "[1.0.1]",
+    "UiPath.AdobePdfServices.IntegrationService.Activities": "[4.0.6]",
+    "UiPath.Excel.Activities": "[2.24.1]",
+    "UiPath.GoogleVision.IntegrationService.Activities": "[5.0.5-preview]",
+    "UiPath.IntelligentOCR.Activities": "[6.21.2-preview]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.MicrosoftOffice365.Activities": "2.6.24",
+    "UiPath.MicrosoftVision.IntegrationService.Activities": "[5.0.2-preview]",
+    "UiPath.OCR.Activities": "[3.21.0-preview]",
+    "UiPath.PDF.Activities": "[3.20.0-preview]",
+    "UiPath.System.Activities": "22.10.8",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.0]",
+    "UiPath.Vision": "[3.14.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d26e7d50-239f-4d52-a7c5-ec19b17fb097",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

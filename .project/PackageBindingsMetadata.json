@@ -1,0 +1,6337 @@
+{
+  "ActivityBindings": {
+    "UiPath.AdobePdfServices.IntegrationService.Activities.compressPdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.compressPdfStatus": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.CreateDocument": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.createPdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.downloadCompressedPdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.DownloadCreatedPDF": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.DownloadExportedPDF": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.DownloadGeneratedDocument": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.DownloadLinearizedPdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.DownloadPageManipulatedPdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.exportPdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.GetcreatePDFStatus": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.GetDocumentGenerationStatus": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.GetexportPDFStatus": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.GetlinearizePdfStatus": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.GetpageManipulationStatus": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.GetRecord": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.linearizePdf": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.pageManipulation": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.AdobePdfServices.IntegrationService.Activities.Scope": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.AddAndProcessQueueItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueType",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.AddQueueItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueType",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.AddTransactionItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueType",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.BeginProcess": [
+      {
+        "Type": "process",
+        "Values": {
+          "name": {
+            "Value": "ProcessName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.BulkAddQueueItems": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.DeleteQueueItems": [
+      {
+        "Type": "queue",
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.GetJobs": [
+      {
+        "Type": "process",
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.GetQueueItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueType",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.GetQueueItems": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.GetRobotAsset": [
+      {
+        "Type": "asset",
+        "Values": {
+          "name": {
+            "Value": "AssetName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.GetRobotCredential": [
+      {
+        "Type": "asset",
+        "Values": {
+          "name": {
+            "Value": "AssetName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.GetTransactionItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueType",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.InvokeProcess": [
+      {
+        "Type": "process",
+        "Values": {
+          "name": {
+            "Value": "ProcessName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.PostponeTransactionItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.QueueTrigger": [
+      {
+        "Type": "QueueTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          },
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "MaxJobsForActivation": {
+            "Value": "MaxJobsForActivation",
+            "ValueSource": "Property"
+          },
+          "ItemsActivationThreshold": {
+            "Value": "ItemsActivationThreshold",
+            "ValueSource": "Property"
+          },
+          "ItemsPerJobActivationTarget": {
+            "Value": "ItemsPerJobActivationTarget",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.SetAsset": [
+      {
+        "Type": "asset",
+        "Values": {
+          "name": {
+            "Value": "AssetName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.SetCredential": [
+      {
+        "Type": "asset",
+        "Values": {
+          "name": {
+            "Value": "CredentialName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.SetTransactionProgress": [
+      {
+        "Type": "queue",
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.SetTransactionStatus": [
+      {
+        "Type": "queue",
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.StartJob": [
+      {
+        "Type": "process",
+        "Values": {
+          "name": {
+            "Value": "ProcessName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.StopJob": [
+      {
+        "Type": "process",
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.Storage.DeleteStorageFile": [
+      {
+        "Type": "bucket",
+        "Values": {
+          "name": {
+            "Value": "StorageBucketName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.Storage.DownloadStorageFile": [
+      {
+        "Type": "bucket",
+        "Values": {
+          "name": {
+            "Value": "StorageBucketName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.Storage.ListStorageFiles": [
+      {
+        "Type": "bucket",
+        "Values": {
+          "name": {
+            "Value": "StorageBucketName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.Storage.ReadStorageText": [
+      {
+        "Type": "bucket",
+        "Values": {
+          "name": {
+            "Value": "StorageBucketName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.Storage.UploadStorageFile": [
+      {
+        "Type": "bucket",
+        "Values": {
+          "name": {
+            "Value": "StorageBucketName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.Storage.WriteStorageText": [
+      {
+        "Type": "bucket",
+        "Values": {
+          "name": {
+            "Value": "StorageBucketName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.TimeTrigger": [
+      {
+        "Type": "TimeTrigger",
+        "Arguments": {
+          "TimeZone": {
+            "Value": "TimeZone",
+            "ValueSource": "Property"
+          },
+          "CronExpression": {
+            "Value": "CronExpression",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.WaitQueueItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.AnnotateFile": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.FaceDetection": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.HandwritingDetection": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.LabelDetection": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.LogoDetection": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.Scope": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.TextDetection": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.GoogleVision.IntegrationService.Activities.WebDetection": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Mail.Activities.Business.GmailApplicationCard": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Mail.Activities.Business.NewGmailTrigger": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Mail.Activities.Business.NewO365EmailTrigger": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.CreateEventConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.DeleteEventConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.ForEachEventConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.ForwardEventConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.GetCalendarsConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.GetEventByIdConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.GetEventListConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.ModifyEventConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.RsvpConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.Triggers.EventReplied": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              },
+              "calendarID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "calendarID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.Triggers.EventUpdated": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              },
+              "calendarID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "calendarID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.Triggers.NewEventCreated": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              },
+              "calendarID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "calendarID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Calendar.Triggers.NewEventInvitationReceived": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserCalendarFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              },
+              "calendarID": {
+                "Value": "BrowserCalendarId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "calendarID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.AddSheetConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.CreateWorkbookConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.DeleteColumnConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.DeleteRangeConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.DeleteRowsConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.DeleteSheetConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.ForEachRowConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.ForEachSheetConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.ReadCellConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.ReadRangeConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.RenameSheetConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.Triggers.RowAddedToTableBottom\u00601": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              },
+              "ReferenceID": {
+                "Value": "ReferenceId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          },
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "TableNameBindingKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "SheetTableID": {
+                "Value": "SheetTableId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "SheetTableID",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "SheetTableID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "SheetTableID",
+                "ValueSource": "Constant"
+              },
+              "Overwritable": {
+                "Value": "false",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.Triggers.WorksheetCellUpdated": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              },
+              "ReferenceID": {
+                "Value": "ReferenceId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          },
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "SheetCellBindingKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "WorksheetID": {
+                "Value": "SheetName",
+                "ValueSource": "Property"
+              },
+              "CellAddress": {
+                "Value": "CellAddress",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "WorksheetID",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "WorksheetID,CellAddress",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "WorksheetID,CellAddress",
+                "ValueSource": "Constant"
+              },
+              "Overwritable": {
+                "Value": "false",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.Triggers.WorksheetCreated": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              },
+              "ReferenceID": {
+                "Value": "ReferenceId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.WriteCellConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.WriteColumnConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.WriteRangeConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Excel.WriteRowConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.CopyItemConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          },
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "SecondaryResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserFolderFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserFolderDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "SecondaryObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.CreateFolderConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.DeleteItemConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.DownloadFileConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.ForEachFileFolderConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.GetFileFolderConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          },
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "RelativePathBindingsKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserParentItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserParentItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserParentDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ParentFolderObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.GetFileListConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.MoveItemConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          },
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "SecondaryResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserFolderFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserFolderDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "SecondaryObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.ShareItemConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.Triggers.FileUpdated": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              },
+              "ParentID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ParentID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ParentDriveID",
+                "ValueSource": "Constant"
+              },
+              "DebugQueryParameters": {
+                "Value": "ParentID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.Triggers.NewFileCreated": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              },
+              "ParentID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ParentID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ParentDriveID",
+                "ValueSource": "Constant"
+              },
+              "DebugQueryParameters": {
+                "Value": "ParentID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.UploadFilesConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserItemFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserItemId",
+                "ValueSource": "Property"
+              },
+              "ParentDriveID": {
+                "Value": "BrowserDriveId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Files.UseDriveCard": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.General.HttpRequestConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.ArchiveEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.DeleteEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.DownloadEmailAttachments": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.DownloadEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.ForEachEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "parentFolderName": {
+                "Value": "BrowserFolder",
+                "ValueSource": "Property"
+              },
+              "parentFolderId": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "parentFolderName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.ForwardEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.GetEmailByIdConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.GetEmailListConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "parentFolderName": {
+                "Value": "BrowserFolder",
+                "ValueSource": "Property"
+              },
+              "parentFolderId": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "parentFolderName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.GetNewestEmail": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "parentFolderName": {
+                "Value": "BrowserFolder",
+                "ValueSource": "Property"
+              },
+              "parentFolderId": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "parentFolderName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.MarkAsReadUnreadConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.MoveEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "parentFolderName": {
+                "Value": "BrowserFolder",
+                "ValueSource": "Property"
+              },
+              "parentFolderId": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "parentFolderName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.ReplyToEmailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.SendMailConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.SetEmailCategoriesConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.Triggers.EmailSent": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "SharedMailboxBindingKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "sharedMailboxAddress": {
+                "Value": "Mailbox",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "sharedMailboxAddress",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "sharedMailboxAddress",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "sharedMailboxAddress",
+                "ValueSource": "Constant"
+              },
+              "Overwritable": {
+                "Value": "false",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.Triggers.NewEmailReceived": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "SharedMailboxBindingKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "sharedMailboxAddress": {
+                "Value": "Mailbox",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "sharedMailboxAddress",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "sharedMailboxAddress",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "sharedMailboxAddress",
+                "ValueSource": "Constant"
+              },
+              "Overwritable": {
+                "Value": "false",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          },
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "parentFolderName": {
+                "Value": "BrowserFolderName",
+                "ValueSource": "Property"
+              },
+              "parentFolderId": {
+                "Value": "BrowserFolderId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "parentFolderName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.TurnOffAutomaticRepliesConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Mail.TurnOnAutomaticRepliesConnections": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": []
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.AddListItemConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "CuratedSharepointList",
+                "ValueSource": "Constant"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.DeleteSharepointListItemsConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "CuratedSharepointList",
+                "ValueSource": "Constant"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.ForEachListItemConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "CuratedSharepointList",
+                "ValueSource": "Constant"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.GetListItemsConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "CuratedSharepointList",
+                "ValueSource": "Constant"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.GetSingleSharepointListItemConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "CuratedSharepointList",
+                "ValueSource": "Constant"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.Triggers.SharepointListItemAdded\u00601": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              },
+              "ReferenceID": {
+                "Value": "ReferenceId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.Triggers.SharepointListItemUpdated\u00601": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "FilterExpression": {
+            "Value": "FilterExpression",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              },
+              "ReferenceID": {
+                "Value": "ReferenceId",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "ObjectName",
+                "ValueSource": "Property"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              },
+              "PrimaryKey": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              },
+              "TriggerCreateParameters": {
+                "Value": "ReferenceID",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftOffice365.Activities.Sharepoint.UpdateListItemConnections\u00601": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "BindingsVersion": {
+            "Value": "2.1",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [
+          {
+            "Type": "Property",
+            "Key": {
+              "Value": "ResourceKey",
+              "ValueSource": "Property"
+            },
+            "Values": {
+              "FullName": {
+                "Value": "BrowserListFriendlyName",
+                "ValueSource": "Property"
+              },
+              "ID": {
+                "Value": "BrowserListId",
+                "ValueSource": "Property"
+              },
+              "SiteID": {
+                "Value": "BrowserSiteUrl",
+                "ValueSource": "Property"
+              }
+            },
+            "Arguments": {
+              "ActivityName": {
+                "Value": "DisplayName",
+                "ValueSource": "Property"
+              },
+              "BindingsVersion": {
+                "Value": "2.1",
+                "ValueSource": "Constant"
+              },
+              "ObjectName": {
+                "Value": "CuratedSharepointList",
+                "ValueSource": "Constant"
+              },
+              "DisplayLabel": {
+                "Value": "FullName",
+                "ValueSource": "Constant"
+              }
+            },
+            "SubBindings": []
+          }
+        ]
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.AnalyzeImage": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.DescribeImage": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.DetectObjects": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.GetAreaOfInterest": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.GetReadResult": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.GetThumbnail": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.ListAllRecords": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.OCR": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.ReadText": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.MicrosoftVision.IntegrationService.Activities.TagImage": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "ActivityName": {
+            "Value": "DisplayName",
+            "ValueSource": "Property"
+          },
+          "BindingsVersion": {
+            "Value": "BindingsVersion",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ]
+  }
+}

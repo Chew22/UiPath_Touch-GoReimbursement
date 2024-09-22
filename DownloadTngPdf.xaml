@@ -1,0 +1,806 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="DownloadTngPdf" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1096.8,10240" sap2010:WorkflowViewState.IdRef="DownloadTngPdf_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Files.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Taxonomy</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.DataExtraction</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.DataExtraction</x:String>
+      <x:String>UiPath.DU.Shared.Utils</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts</x:String>
+      <x:String>UiPath.SmartData.PositionBasedExtraction.Storage</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+      <AssemblyReference>UiPath.SmartData.PositionBasedExtraction</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="DownloadTngPdf" sap:VirtualizedContainerService.HintSize="1107.2,10175.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="ChewZhiXin22" Name="Username" />
+      <Variable x:TypeArguments="ss:SecureString" Name="Password" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="TouchNGo_Credential" CacheStrategy="None" DisplayName="Get Credential - Orchestrator Asset" FolderPath="zhixchew's workspace" sap:VirtualizedContainerService.HintSize="1044.8,172.8" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
+    <uix:NCheckState DisplayName="Check App State 'Demographic Information'" sap:VirtualizedContainerService.HintSize="1044.8,859.2" sap2010:WorkflowViewState.IdRef="NCheckState_6" Version="V3">
+      <uix:NCheckState.IfExists>
+        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="496,640.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Touch 'n Go Web Portal" sap:VirtualizedContainerService.HintSize="433.6,525.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="b1490125-e769-443e-8ea5-b9b695c7af1a" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,308.8" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b1490125-e769-443e-8ea5-b9b695c7af1a" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/1" DesignTimeRectangle="198, 222, 34, 35" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget c-logout-button v-button-c-logout-button icon v-button-icon v-button-empty-caption' aaname='' check:innerText='' /&gt;" Guid="85d78a5a-f2ea-41b1-9bed-2bf8cc2c034c" InformativeScreenshot="47b81671972e62ee10050e3996479b85.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.2422973531680397' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="206, 226, 19, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' tag='SPAN' type='' class='v-icon FontAwesome' check:innerText='' /&gt;" Guid="ffd0bb04-dbe8-4c65-a429-6a5bb46aff75" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA8CSURBVGhDxZkLWJVVuse3gIpXEDVQETY32dxhA4JyE1EBbzCjUyqJnEtpT41Oqc+pJsWmsbFSQVLxAuIlbSZTyqlO54huM9EskzzPzKkxFUxAHYMtmAnszXrP+67Lt7+tWDYz55z3ef7Pe1nf3uv3rrW+b3+i4R9hg9xcPef4eBW9NGZ0SVVUUPWZ8dH1F9JirdcnJsD1iYlwIT3O+tm4yPpqc6jlpZDRJdnDPfN93fsY5cf/f4ygF472XlIdO8aiQIXXxZkqF7qWGS+F8QQzq0kw1T3sPXTBXc30QrmglgUHBx0LDgw4jfGjKFfU328Evtw4svjrtJjW65nxjIMhjJMncIKUoKqmchHHw9WMOHZtAjaEKg31rxrVt7exFxpOU1W2oRRaWlrg6tVmOP3JKUhOGnsZ6wM5xN9qy40jEFwdDQGhgaF4LYMAxUpfxZhDUixBRWzmuZCImzLi4CqOzfX2qphfMA/IamqO2nbv+UM3xZcuXoD+/frtkig/zWiLjyRE1PHV4ytIMM5eA5WrKsAEnFOeoepmaE6PZc3pcXAF1ZAWw/PFwb7QcPEifPHFuc7a4x/Cl/91mO3Y8pL9SuO17uBAY51EenB72HvYgvOpMVbHSpoFkAaqh5VCyGZSehwCxuIuiFyrpyE4j+OEsIFm3MHLqbHwSEoSX/2D+6thfPxAtmC2gRVMMXQv+9U/wcTMrKuINECQPYAt8/cpVrAKTK0mwQmPgOQlIIekleVgDtAmhG4iUB7H8JVvTIuFI/EmWBPiC7siAuFiagzMzkiF7m5+aqC+/htYu+45VlAQ2x0aPBwCAwLpPugr6H7Elvr5FOtX1wGjizmQmcOJ1cQYaxxUSuWq1pQag43Ecv/1+CjIDDeBxWKBV9asgUlDB8PcjBRgjEG3zcabIOvsBDh7to71c+/7gcSjG/3+Ro82tc0/uO3SC0CEwhXlMYeUnmqoRoxJVKeVv4KrTfVcvxHQ1trCQd9//314/LF/5bHdbufq7LjD861byxmiLXZBQ3//RyrdsF+Oi2rlgLTtOCnfdsp1UquovIBTTSAwQZNSopnmEZr8NynR1BBU4rEJMvrBrZtWwGXnN+9Hx46JHUB4Okp22gnMC+bNheG9XWe7uLgSPDXRs51OCq93WkUColgC6T2PFaBeeDNyWPJOudA346MY7cCyzFSorKyAWTNnwO3bt6GLzgoaNUDQWgNoj/5iFlSFGf8kd6DnI/TMaO9ibRVJOnBnQAcMl1pdnQhQ+SsppGiHxxo1sWhaDof7zapi2FCynsddXV3ck1EjdpkvKpgD5xJM7Gn/ES9KXGfrM6y/8bWnJzhWE6FwMtGABuSIaYx7JQRqzEmBtspy6Dj7Gdiam/jE3GztwNrOQHfDWrDXzQT76QRUPMzLT+TD3357HbZv28qBbbji5JXsdtFAybqX4fyBCLhxONbqMcDFU2I7zLjIvDN9Zz6cnZooYXVwHFAC85XUrSb6q7NzOPSDmv3au9jIdJiWOhgOvL0fK91w5873GrTe7HZxhGprT0D1awHM/kkcvPDP3s670Gdof6N5388hHvXEb6doYOqsOqCF6CbkGhfJrKWvQHd7O59EWbOVwXtfdMJ2SwdsQx37qgvOX7XLUfGEAXs7LCxIho+PH8dKNz//Cl7fBL8WGHz99V+gaIYX2D+JYX/9MMLqOdDVsQte6X5FsXvzWNzefDDv/Rl88IskCRjFnxjfjFeK4tAUX0Z/s2KzmEXaH+s6YdHO7yCx+CaMXdXGfeIqKYzzSm/hNV3aD9XBgwdh+fLlPOam2wHhxZGiBi1HD8OszMFgPxUNXbVRsPiRYUskvsFgWp1ZF/tGHiN4aqTw1RwBK6EvJxM0eqVxUdBauoZPRNZs7YaFVQI8QQInUCzF6+RlU3RtY4sNHpk1E9xcXGDx4l/Cgbf2QYfcBdUENWqziSdT4fwCOLTWn9lORbKu2kio2WS0cHg6PjF7ZrIYbCDujXyIRZHfuDCFXU6OYLjSHJjiBpk35k9h6tgQ/IySdifg+JUOaTXdeOLKVpixvg3mjfWHa0W9oC7fFTZFGGD3vn0IbYMO/PGy2fDmZeLYvYn1pXOH4epHgO1kGLOfisQ4EjzpZh4c750XuycP7lZK5Uz4c3oUa0gicGoiEsg3JIWzW++9w7+Y7PEdtxDUqpOANTvVrFpOPmFFC4Q/eQZeHucOn812ge8W9oWbj7jBsscK5LcKu4Pnv2TdK1C2dCTYTyJ8bRhvwn4ynKsw16PIMHJeREnM7pkglMc9NRC9ewZb88s0Dbo+KQLqkyOg8WdT5NcDHMIzT0A9SzRxjxA+9vnrMCkFv+cpA1jy+sD6FDd80PeC/EQf2FjyPOz//U7YvulVeBjfwX676CGEDYPvj5vQmxjFtpMmrnWLHyo1BD07zhK9ayZE7ZrB9E1E7ZrOqH56cixweKmW9b+T+ADT1rVB3AqrQwjolPekF1oh5rkmSEvIgA9nGMD2mAFuP9YbmgsMsGb5VPhoiz8cWDMKtjzrzRaGGOBouRGhOTzuQKjyzFZrggO/833HELY2qz561wzoSVE7p7O5q7NYfWIYu4SqHxsOdz7/lMN/hY/FWAQiEZiKf1itWhzzQguMnPwyJETGwaMxgyA30gfMiYmQnJwEkzKTIQ1fY+aY+sDTk/vBnpU+7K8fBIO9dgzChyB8CKP44tsB9YbIndNY9E4ERkVxTecx1Smm2qG8ON7AJWxA3bxH/7sLYhCIi1ZVxhyOe31NXyd48Rmqm548BWHx4yE6IRkS4uPBbDZDXFwcDPH0gCfDDfBergFW5Q+A6x8Egu1EMLOdCOHeXhsMN/49wGqIqpoOkVUIi/5+yirLgUv4HnIxPlT7hSk/egeiEUJJwTrVeogVPK8v/QuYi/bCrMJfwaxZP4fJkydDRkoc5GVHw+MPh0DpM37wpzf8cOWDETqQ2U8Egf0E7QSKYvSGiKqpLBIhnTUNInegMI7YMZWFo0r/JRkuxpu0BjYf+V6D0yvqB/K7x1SNvksZgTpglQKFaoNoHGwf4ytFLe1IIBjCNmZbw3fksggCRlFMPqJyKs+pHl6Zy8aW58C5lHB8SWvkE71ztgOift0Kkb9u4Z5AuNfHd3l1bSTVdPUjeBy52do4FMHaPjZiIwGYB8gGMMYa9yLmNUPwqxPqCZIUhqAaOHolqpOeXZIC3585zedqwh8wAhIScD3r7rF7r/2yWfxgsZunOJQd4QjQIT9GNUfdj5EuvDWq3uD7pLk6vGIqrrKADa/IdYrDKnIYidfxujNvb+OTkRVVtEEEAkQglPA/XVPW3pTfhq8OF19EOH8EdRbCgu34aIQmYSzzmjJvi8FnTniJgBOwvBmZk0zbs7EB8jmMNKckT04HUP15J4Q/j7+qCMKFMUHx2o9IXVf9eYf8Nnzz/HQcAvriahMgeV+CJlieCy+F9XVPeZQaPMaNKiJIDro9B0i8me1KoiYk8tPN5+SUAAu2t0MYgigRVNjz32qg+jHna1rws23yW/D4XN+vQKVGIfBIFHlfsPMa5Rh/LDQz1T3P4NrPzZPDbcuB0G1TeBMmHmNT6PWiGl2T9eYCaO/8jk/c2NoNk161ggmhCdz0nPCOuEWr0TWqNuk1KzTifUTW3vEdrn4SwQrQj0bwmLxd77lGyvERzOjtKv4oPHpposW0LVuCZkPo1ikIj/lWVRN1nsva6pPlfHIyaqIQV5Pg7pFsQK/5eC19RtnN83j2ORTB+TCu4yOopst9sIkR2KCof14xzPFnRs8svyWhCKY0Zstk5sinONX52BZRe/3MHokg7OCZDpj4SiuMQchQlPJK87fdhIO6M0924FwltFroeGjAOnkjtD4XsqPmZ7svkPgGg4u7m2dwSaY1BOFIHFBCkh8jRWPk9TXaCToCevuyyQ6H/9wJZYdvw+s1t7GxO04rTtbecQtW15bD/kP4dvnRQ7TK6L1l7I2QFCvhGynKdmw4I9GYdnyUeU0PLFZQY8oRtnwSG1M+GWMU1oJlHrwZvcxD5HjGGwXswFf/IdF+3D5p+gIy9hSwjIp0hEUwpWPDEBCl5cO5JDxqKDUAlf82qEpiO4x2IXDthFYFFrIZRZ7Hk5xygtZyGpP5hD2PwuoT5RzwSvs1iQs8plrZp7shfke++Cx+ruEwPlU0sGHoSbrYQrHTGJeft0vP/z01ZFpgMa4wnyBocxbTwLlXEnnQJhrnO6LFVA/eJEQ15cW4vjaRLd9nRhgvPA4E5kWgAtIyRMYkL2ePYyuL3Islbs82+tmkOgWhpOCDN2VJ6cfvzvU1dX0WBG6cyOEpNpdPgIb/xJtRQnFAC0F6YU14m8WT8ZplCOYo9BfeHHxJYt7f3LzcjQGvpVuDNmaBEk2q9wQjfCZTYOSFMvmY0t150MaJUPKWCeGGICyBebIuiwfmJE9Z82Dku44O5jXSjT8Othrvd3TutkFjfYoCXs9kJDWpEMavoydhHojecY0Yo1yro6dY/7nUrSkSygEnYg8J7AE2zQ9iGHOfl9I7X+I9mHnlBq6iyXtSQNkEDVKrl2Xec52SEa+nz5DeOoivygSmAC2DEVx4ATsQoQdRU0IYryjsu0pi/TTzzDUWczCUgBCepMCMGzAuo6YyubRxmStPmlOZwIH0slsI1rlmOzqA8frRgbByQe8fvml/zPpHDsv3W5NqRVANJGBDJvhvyED4DEaxqgXgNVQnUU6f0ecNH+JNiXAE5qwBqP5YHwBdR/oxG+rGof7Wwmy3Ionx95nbEHej78qkeg5YiuCl0mPOITH2L01HiTFN2ng6e2ZXpIDjoP2BIDm4qAl/pB95+Gybe53Ru9eD3bA/xTxy/IsVmB9CGUszOKhfCcXCq9i/RIyRUjYl4+rj04VABayUuwZtO9KX3Xi3j3VFodvfdt4f1Gg3hs4NrSJQgtRr9Lo03sDokjQ+hjGvb/8D/jMQARGYoIVq+mrxjXd7t64odC32HNDr3v+4+N8yamRgok/RiGXxdQTOgdenaxK1dBi/MZngHSLwmj4MBTXre1uemuW65P8UvCejZuhm98wPLBn+RJRl5Atj66kJ37Wp7Pf7R+EKu1nP73Wrf/tFt+q1T7iWzM/uteAfA20w/A9spJEmCE8uSQAAAABJRU5ErkJggg==" InformativeScreenshot="f235123ad0e607b1533909deff2f23e2.jpg" Selector="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.2422973531680397' title='Touch &amp;apos;n Go Web Portal' /&gt;" Title="Touch 'n Go Web Portal" Url="https://tngportal.touchngo.com.my/;#main/1" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </uix:NCheckState.IfExists>
+      <uix:NCheckState.IfNotExists>
+        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,106.4" sap2010:WorkflowViewState.IdRef="Sequence_17">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </uix:NCheckState.IfNotExists>
+      <uix:NCheckState.Target>
+        <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/1" DesignTimeRectangle="332, 193, 247, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Demographic Information' parentid='app-96801' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Demographic Information' parentid='app-96801' tag='DIV' type='' class='v-label v-widget h3 v-label-h3 bold v-label-bold v-label-undef-w' check:innerText='Demographic Information' /&gt;" Guid="3f0aec0d-ebf2-48c4-b3e7-6f0ec4112f3b" InformativeScreenshot="57e5077e1b3a8ed861a5b22a4c5f7697.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.2422973531680397' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+          <uix:TargetAnchorable.Anchors>
+            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+              <uix:Target DesignTimeRectangle="328, 131, 90, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='gwt-uid-5' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='gwt-uid-5' type='' tag='DIV' class='v-captiontext' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="91b6e17d-d6ac-4605-987b-e2f150e5ce89" SearchSteps="FuzzySelector" />
+            </scg:List>
+          </uix:TargetAnchorable.Anchors>
+        </uix:TargetAnchorable>
+      </uix:NCheckState.Target>
+    </uix:NCheckState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Welcome to Touch 'n Go Web Portal" sap:VirtualizedContainerService.HintSize="1044.8,8951.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1011.2,8734.4" sap2010:WorkflowViewState.IdRef="Sequence_13">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'User session'" sap:VirtualizedContainerService.HintSize="948.8,527.2" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,308.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="987, 601, 86, 37" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget c-primary-action v-button-c-primary-action icon' aaname='' check:innerText='OK' /&gt;" Guid="622ee84f-b846-4111-baf2-4d339ea7d07a" InformativeScreenshot="05503e75a3cfcc8f6df0b840061e03b0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.9288318273443283' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="847, 490, 233, 37" FullSelectorArgument="&lt;webctrl id='gwt-uid-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gwt-uid-7' tag='DIV' type='' class='v-window-header' aaname='Information' check:innerText='Information' /&gt;" Guid="9495ac46-d5f9-4ef7-b4c4-67f44af8a145" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,106.4" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="847, 490, 245, 166" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl class='v-window-contents' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-window-contents' tag='DIV' type='' aaname='' check:innerText='User session expired.&amp;#xD;&amp;#xA;Click &amp;quot;OK&amp;quot; to login again.&amp;#xD;&amp;#xA;OK' /&gt;" Guid="a27b686a-e138-480e-96c0-e62c6db36f08" InformativeScreenshot="4330583ac4872d10b24c30ce487f47fd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.9288318273443283' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NNavigateBrowser Action="Refresh" DisplayName="Navigate Browser - Refresh" sap:VirtualizedContainerService.HintSize="948.8,82.4" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V3" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="8" DisplayName="Type Into - Username" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="948.8,254.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Text="[Username]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="103, 417, 337, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='gwt-uid-4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gwt-uid-4' tag='INPUT' type='text' class='v-textfield v-widget c-login-field v-textfield-c-login-field inline-icon v-textfield-inline-icon icon v-textfield-icon v-has-height' placeholder='Username' aaname='' /&gt;" Guid="f76a6945-1690-4481-89df-d2ad95b7a4ea" InformativeScreenshot="655f2e4f6471ae30f47212d084158e0d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Password" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="948.8,254.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" SecureText="[Password]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="153, 493, 337, 50" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='gwt-uid-6' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gwt-uid-6' tag='INPUT' type='password' class='v-textfield v-widget c-login-field v-textfield-c-login-field inline-icon v-textfield-inline-icon icon v-textfield-icon v-has-height' placeholder='Password' aaname='' /&gt;" Guid="eb2c403e-840f-4d53-8b9c-97491a612167" InformativeScreenshot="410c64dd02ed4e3aaf0a3187d52ffb7a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="948.8,193.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="153, 605, 337, 57" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='v-button v-widget c-login-button v-button-c-login-button primary v-button-primary v-has-height' aaname='' check:innerText='Login' /&gt;" Guid="2eac02e5-3749-4433-a5a6-37b252b1d078" InformativeScreenshot="90ad5ae2d866274cadd7993fb218a497.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="295, 622, 53, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl class='v-button-caption' parentid='app-96801' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-button-caption' parentid='app-96801' tag='SPAN' type='' aaname='Login' check:innerText='Login' /&gt;" Guid="b3984d38-82c3-4ebd-96a6-174875733908" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="948.8,144" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Logged In to Touch N Go&quot;]" />
+            <uix:NCheckState DisplayName="Check App State 'chrome.exe Welcome'" sap:VirtualizedContainerService.HintSize="948.8,1304" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Timeout="10" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,1085.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="OTPCode" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Enter OTP Window Appeared&quot;]" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Get OTP'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="1019, 606, 113, 37" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget primary v-button-primary v-has-width' aaname='' check:innerText='Get OTP' /&gt;" Guid="53ba4187-f1d6-488b-af00-c468dedc16a8" InformativeScreenshot="2be3b1592b8eb59d45f957d601837f63.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1046, 615, 59, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Get OTP' class='v-button-caption' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Get OTP' class='v-button-caption' tag='SPAN' type='' check:innerText='Get OTP' /&gt;" Guid="3520b063-09c8-4f3f-9070-52c377fff17e" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="337.6,24.8" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="OTP Code" Title="Please enter the OTP received from your email address">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[OTPCode]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,254.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Text="[OTPCode]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="757, 665, 250, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-textfield v-widget v-has-width' tag='INPUT' type='text' placeholder='Enter OTP' aaname='' /&gt;" Guid="eb77529d-4b7a-4ec7-9023-805774621625" InformativeScreenshot="d9ba8d53cd1447eb54f0e578c0d4a9c3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Verify'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="717, 618, 112, 37" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget primary v-button-primary v-has-width' aaname='' check:innerText='Verify' /&gt;" Guid="0e1ef40c-e8dc-46af-920b-6379c615895a" InformativeScreenshot="2cee7f52871df9b0451602398b099031.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.7684010426965087' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="752, 627, 42, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Verify' class='v-button-caption' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Verify' class='v-button-caption' tag='SPAN' type='' check:innerText='Verify' /&gt;" Guid="d2fcead1-b96d-451c-b78d-fd98c7a4ea9d" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,259.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;No OTP Window Appeared&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#login" DesignTimeRectangle="738, 495, 462, 220" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl class='v-window-contents' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-window-contents' tag='DIV' type='' aaname='' /&gt;" Guid="0b234fd5-5d7a-4154-a9f7-128edbffe13e" InformativeScreenshot="d0070d8ec99e4e1c6feccc6a60321f4b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="736, 494, 466, 221" Guid="618e2871-684b-4e4f-be4a-2c98c2889a5a" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Email address'" sap:VirtualizedContainerService.HintSize="948.8,527.2" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,308.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update Email'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/1" DesignTimeRectangle="642, 651, 83, 37" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget' aaname='' check:innerText='Close' /&gt;" Guid="bcae7c91-bcdf-4a2b-bd56-e2d074a4d773" InformativeScreenshot="d11bb0ed817221f536a7c3fb9f039fda.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.7684010426965087' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="663, 660, 41, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Close' class='v-button-caption' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Close' class='v-button-caption' tag='SPAN' type='' check:innerText='Close' /&gt;" Guid="432d7833-3449-44ec-8e6a-98ba2c573f5a" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,106.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/8" DesignTimeRectangle="744, 425, 450, 297" DesignTimeScaleFactor="1.25" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl class='v-window-contents' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-window-contents' tag='DIV' type='' aaname='' check:innerText='Email address is required to receive an OTP (One Time Password) when login to the portal.(&amp;#xD;&amp;#xA;What is' /&gt;" Guid="cb89a163-b72d-4ac6-9ad7-ec62c09ee34c" InformativeScreenshot="461361dcef184dff0127a4533844bd11.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Dashboard'" sap:VirtualizedContainerService.HintSize="948.8,711.2" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,492.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Entered Dashboard Page&quot;]" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View More &gt;'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/1" DesignTimeRectangle="1765, 798, 90, 19" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='View More &amp;gt;' class='v-button-caption' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='View More &amp;gt;' class='v-button-caption' tag='SPAN' type='' check:innerText='View More &amp;gt;' /&gt;" Guid="899a8efc-3e55-4ae3-a98c-8a184203a5a5" InformativeScreenshot="07307a27128ee7a41227ef19b42954a2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1765, 795, 90, 23" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget primary v-button-primary plain v-button-plain float-right v-button-float-right link v-button-link' aaname='' check:innerText='View More &amp;gt;' /&gt;" Guid="b4c4fff3-0a06-4042-b862-14683536fe52" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,259.2" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Error Entering Dashboard Page&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/1" DesignTimeRectangle="328, 196, 90, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='gwt-uid-11' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='gwt-uid-11' type='' tag='DIV' class='v-captiontext' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="857333ff-1aca-4b6f-a915-addfe270d9f5" InformativeScreenshot="13912b87631966b4e3877d96946c7514.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="332, 258, 247, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Demographic Information' parentid='app-96801' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Demographic Information' parentid='app-96801' tag='DIV' type='' class='v-label v-widget h3 v-label-h3 bold v-label-bold v-label-undef-w' check:innerText='Demographic Information' /&gt;" Guid="8f026839-18ef-414e-95e6-f0a432f9ac9e" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View Transactions'" sap:VirtualizedContainerService.HintSize="948.8,193.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="1287, 361, 172, 37" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl class='v-table-table' tag='TABLE' /&gt;&lt;webctrl aria-role='button' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-table-table' tag='TABLE' /&gt;&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget primary v-button-primary row-btn v-button-row-btn' aaname='' check:innerText='View Transactions' /&gt;" Guid="da9224ff-b1b9-4f9f-a79c-16d77403ac16" InformativeScreenshot="4515b5e148a959436cea697453e5c1e3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1308, 370, 130, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl class='v-table-table' tag='TABLE' /&gt;&lt;webctrl class='v-button-caption' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-table-table' tag='TABLE' /&gt;&lt;webctrl class='v-button-caption' type='' tag='SPAN' aaname='View Transactions' check:innerText='View Transactions' /&gt;" Guid="0c0044d1-717d-42c0-93a5-1c330e219422" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Find Transaction'" sap:VirtualizedContainerService.HintSize="948.8,1845.6" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,1627.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="StartDate" />
+                    <Variable x:TypeArguments="x:String" Name="EndDate" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="337.6,24.8" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Please input the date start in the format of (eg. 22/12/2024)" Title="From Date">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[StartDate]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Start Date *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,254.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Text="[StartDate]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="491, 461, 250, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='gwt-uid-23' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gwt-uid-23' tag='INPUT' type='text' class='v-textfield v-datefield-textfield v-textfield-focus' aaname='' /&gt;" Guid="811d73a1-a8dd-4fad-863d-782118f8d269" InformativeScreenshot="bd6dfff11bb51d6444d678679c59aaf7.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.7684010426965087' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="185, 468, 300, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='gwt-uid-22' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gwt-uid-22' tag='DIV' type='' class='v-captiontext c-captiontext-preformatted' aaname='Start Date *' check:innerText='Start Date *' /&gt;" Guid="f9d671a7-4eb9-4a53-b9e3-1d48a6c9822f" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;StartDate: &quot; + StartDate]" />
+                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="337.6,24.8" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Please input the date end in the format of (eg. 22/12/2024)" Title="EndDate">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[EndDate]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'End Date *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,254.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Text="[EndDate]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="491, 505, 250, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='gwt-uid-25' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gwt-uid-25' tag='INPUT' type='text' class='v-textfield v-datefield-textfield' aaname='' /&gt;" Guid="93c43cd8-f1f7-4bd0-bb0b-b15dd1eaaa8f" InformativeScreenshot="a87a2a3884c4e183668b3b222706330a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.7684010426965087' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="185, 512, 300, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='gwt-uid-24' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gwt-uid-24' tag='DIV' type='' class='v-captiontext c-captiontext-preformatted' aaname='End Date *' check:innerText='End Date *' /&gt;" Guid="dbe98e49-b38e-42b4-8a07-2449a225f90f" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;End Date: &quot; + EndDate]" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="185, 557, 144, 51" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tabindex='0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tabindex='0' tag='DIV' class='v-button v-widget primary v-button-primary mid v-button-mid icon' aaname='' check:innerText='Search' /&gt;" Guid="e6ce3c60-7da8-4917-8299-ddcc8242b936" InformativeScreenshot="07dd826c68975ba08da2fa5da22f101e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.7684010426965087' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PDF'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="327, 598, 100, 37" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='v-button v-widget excel-btn v-button-excel-btn icon' aaname='' check:innerText='Excel' /&gt;" Guid="053d8542-6000-4a61-b238-78b19f70555d" InformativeScreenshot="0592fc492b57edc1c8700a6e8072356a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.8945130752616854' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="440, 598, 91, 37" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' class='v-button v-widget pdf-btn v-button-pdf-btn icon' tag='DIV' aaname='' check:innerText='PDF' /&gt;" Guid="4097063a-4535-4803-a3c4-5f62312b1b27" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,106.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/4" DesignTimeRectangle="327, 225, 161, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='v-captiontext' parentid='app-96801' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='v-captiontext' parentid='app-96801' tag='DIV' type='' aaname='Find Transaction' check:innerText='Find Transaction' /&gt;" Guid="699c9bb7-bb24-4ebd-b7b9-a1a20d746d1f" InformativeScreenshot="80ad2eafc7edfad08d019088d0e72857.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Touch &amp;apos;n Go Web Portal' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Close'" sap:VirtualizedContainerService.HintSize="948.8,1092.8" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="496,874.4" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="433.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="338, 0, 325, 53" DesignTimeScaleFactor="1.25" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='Touch &amp;apos;n Go Web Portal - Google Chrome - ZHI XIN (student.tarc.e*' role='pane' /&gt;&lt;ctrl name='Transaction History - Memory usage - 52.1 MB' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Touch &amp;apos;n Go Web Portal - Google Chrome - ZHI XIN (student.tarc.e*' role='pane' /&gt;&lt;ctrl name='Transaction History - Memory usage - 52.1 MB' role='page tab' automationid='' check:fulltext='Close' /&gt;" Guid="c0606584-9b45-4bd7-9ac9-c84cb2c41e4b" ImageBase64="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" InformativeScreenshot="91a8e9ccea5b398b196705fed62f2c15.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Touch &amp;apos;n Go Web Portal - Google Chrome' /&gt;" SearchSteps="Image" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Transaction History" sap:VirtualizedContainerService.HintSize="433.6,525.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="873b8428-c3f1-4a01-a689-88553ca74125" Version="V2">
+                    <uix:NApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,308.8" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'grouping'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/APP/connector/5/1716/view-6d922685-d094-406f-87a5-edf3ac0fdedb/TransactionHistory_1087889103.pdf" DesignTimeRectangle="1179, 195, 26, 26" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl name='Transaction History' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Transaction History' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="8631fa34-5976-4647-98af-f298c040b0c7" InformativeScreenshot="9bfb491b97c9ea8c392b19ad66b89174.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Transaction History - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                        </Sequence>
+                      </ActivityAction>
+                    </uix:NApplicationCard.Body>
+                    <uix:NApplicationCard.TargetApp>
+                      <uix:TargetApp Area="457, 17, 1331, 1016" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="00c04266093ee7f12f89204da1de3186.jpg" Selector="&lt;html app='chrome.exe' title='Transaction History' /&gt;" Title="Transaction History" Url="https://tngportal.touchngo.com.my/APP/connector/5/1716/view-6d922685-d094-406f-87a5-edf3ac0fdedb/TransactionHistory_1087889103.pdf" />
+                    </uix:NApplicationCard.TargetApp>
+                  </uix:NApplicationCard>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,106.4" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/;#main/3" DesignTimeRectangle="338, 0, 325, 53" DesignTimeScaleFactor="1.25" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='Touch &amp;apos;n Go Web Portal - Google Chrome - ZHI XIN (student.tarc.e*' role='pane' /&gt;&lt;ctrl name='Transaction History - Memory usage - 51.2 MB' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Touch &amp;apos;n Go Web Portal - Google Chrome - ZHI XIN (student.tarc.e*' role='pane' /&gt;&lt;ctrl name='Transaction History - Memory usage - 51.2 MB' role='page tab' automationid='' check:fulltext='Close' /&gt;" Guid="7ee64cfe-bda6-4f1d-9ee7-6fcaa69cb3a3" ImageBase64="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" InformativeScreenshot="0303cf15a914e24a38fe5b6dc62a8d4d.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Touch &amp;apos;n Go Web Portal - Google Chrome' /&gt;" SearchSteps="Image" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Save As'" sap:VirtualizedContainerService.HintSize="948.8,886.4" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="400,668" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="month" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="337.6,24.8" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="Which month's transaction?(eg. September)" Title="Save As">
+                    <ui:InputDialog.Result>
+                      <OutArgument x:TypeArguments="x:String">[month]</OutArgument>
+                    </ui:InputDialog.Result>
+                  </ui:InputDialog>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TransactionHistory'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,254.4" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Text="[&quot;C:\Users\zhixchew\OneDrive - Advanced Micro Devices Inc\Desktop\Reinbursement\&quot; + month + &quot;.xlsx&quot;]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/APP/connector/0/1/view-2b975d54-6420-427a-876f-7952bfdab341/TransactionHistory_1087889103.pdf" DesignTimeRectangle="169, 455, 752, 22" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="f63868a3-19c9-48c1-87fe-86a8ca00a845" InformativeScreenshot="89759c2b72ed6c8376653c01c4a6c129.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="337.6,193.6" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="21e38087-da75-45ed-ada8-143ffd617e5c" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/APP/connector/0/1/view-2b975d54-6420-427a-876f-7952bfdab341/TransactionHistory_1087889103.pdf" DesignTimeRectangle="696, 543, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' check:text='unchecked' /&gt;" Guid="81eb507d-c677-47a3-be9f-74b9b18947b5" InformativeScreenshot="fd737c6a835c0982538f77fba9cd502b.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="400,259.2" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Save As Window does not appear&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://tngportal.touchngo.com.my/APP/connector/0/1/view-2b975d54-6420-427a-876f-7952bfdab341/TransactionHistory_1087889103.pdf" DesignTimeRectangle="0, 0, 960, 600" DesignTimeScaleFactor="1.25" Guid="cd5e0445-bf96-4465-a00f-2035aabfec87" InformativeScreenshot="16b52e46c8ed54c224e416abfa0d37a6.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.FuzzySelectorArgument>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </uix:TargetAnchorable.FuzzySelectorArgument>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NNavigateBrowser Action="CloseTab" DisplayName="Navigate Browser - Close Tab" sap:VirtualizedContainerService.HintSize="948.8,82.4" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="64ded4335bb03d95260efca439d38c35.jpg" Selector="&lt;html app='chrome.exe' htmlwindowname='app-96801-0.4544231725044825' title='Welcome to Touch &amp;apos;n Go Web Portal' /&gt;" Title="Welcome to Touch 'n Go Web Portal" Url="https://tngportal.touchngo.com.my/;#login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
