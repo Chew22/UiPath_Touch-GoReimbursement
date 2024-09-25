@@ -1,12 +1,12 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SendEmail" this:SendEmail.FilePath="[Environment.CurrentDirectory+&quot;\Output\August.pdf&quot;]" this:SendEmail.ManualERFilePath="C:\Users\zhixchew\OneDrive - Advanced Micro Devices Inc\Desktop\Reinbursement\Manual ER - MYR (August Parking).xlsx" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SendEmail" this:SendEmail.ManualERFilePath="C:\Users\zhixchew\OneDrive - Advanced Micro Devices Inc\Desktop\Reinbursement\Manual ER - MYR (August Parking).xlsx" this:SendEmail.HighlightedTransactionFilePath="[Environment.CurrentDirectory+&quot;\Output\August.pdf&quot;]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="FilePath" Type="InArgument(x:String)" />
     <x:Property Name="ManualERFilePath" Type="InArgument(x:String)" />
+    <x:Property Name="HighlightedTransactionFilePath" Type="InArgument(x:String)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>648,515.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>734.4,515.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SendEmail_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -116,7 +116,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This workflow send the email with attachments.&#xD;&#xA;" DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="400,450.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This workflow send the email with attachments.&#xA;" DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="400,450.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -126,7 +126,7 @@
     <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="Hi,&#xA;&#xA;Please find the attached TouchNGo statement and Expense Report for the August Parking Claim. &#xA;&#xA;Thank you.&#xA;&#xA;Regards,&#xA;EVERLYN CHEW&#xA;Co-Op/ Intern  |  AMD&#xA;IT-Finance Malay 2&#xA;" Cc="aisyahmaryam.bintimohamedhassan@amd.com" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="337.6,294.4" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="Office August Parking Fees" To="chewzx-wm22@student.tarc.edu.my">
       <ui:SendOutlookMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">[FilePath]</InArgument>
+          <InArgument x:TypeArguments="x:String">[HighlightedTransactionFilePath]</InArgument>
           <InArgument x:TypeArguments="x:String">[ManualERFilePath]</InArgument>
         </scg:List>
       </ui:SendOutlookMail.Files>
